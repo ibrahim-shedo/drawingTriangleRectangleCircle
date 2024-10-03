@@ -1,34 +1,54 @@
-Shape Drawer
+# Shape Drawer
 
-This Java program allows you to draw basic shapes (triangle, rectangle, circle) on a graphical interface.
+This Java program allows users to draw basic shapes (triangle, rectangle, circle) on a graphical interface.
 
-How to Use:
+## How to Use
 
-Launching the Program:
-Run the program by executing the main method in the ShapeDrawer class.
-Upon execution, a window titled "Shape Drawer" will appear.
-Selecting a Shape:
-Use the drop-down menu to select a shape you want to draw: Triangle, Rectangle, or Circle.
-Entering Dimensions:
-Depending on the selected shape, you may need to enter one or two dimensions:
-For the Triangle: Base and Height.
-For the Rectangle: Width and Height.
-For the Circle: Radius.
-Enter the dimensions in the respective text fields.
-Drawing the Shape:
-After entering the dimensions, click the "Draw" button.
-The shape will be drawn on the drawing panel below the input fields.
-Error Handling:
-If you enter invalid dimensions (e.g., negative values, non-numeric characters), an error message will prompt you to enter valid dimensions.
-Ensure you provide valid inputs to draw the shapes accurately.
-Notes:
+### Launching the Program
 
-The shapes are drawn with predefined colors: Triangle (Blue), Rectangle (Green), Circle (Red).
-The drawing panel is located at the bottom of the window, where the shapes will be displayed.
-You can draw multiple shapes successively by selecting different shapes and entering dimensions.
-Additional Information:
+1. Run the program by executing the `main` method in the `ShapeDrawer` class.
+2. A window titled **"Shape Drawer"** will appear.
 
-This program utilizes Java's Swing library for creating the graphical user interface (GUI).
-Error messages are displayed using Java's JOptionPane for user-friendly error handling.
-The code is structured with separate methods for drawing each shape to ensure modularity and readability.
-Feel free to modify and expand upon this code for more advanced functionalities or additional shapes.
+### Selecting a Shape
+
+- Use the drop-down menu to select the shape you want to draw:
+  - **Triangle**
+  - **Rectangle**
+  - **Circle**
+
+### Entering Dimensions
+
+- Based on the selected shape, input the required dimensions:
+  - **Triangle**: Base and Height.
+  - **Rectangle**: Width and Height.
+  - **Circle**: Radius.
+- Enter the dimensions in the provided text fields.
+
+### Drawing the Shape
+
+- After entering the dimensions, click the **"Draw"** button.
+- The shape will be displayed on the drawing panel below the input fields.
+
+### Error Handling
+
+- If you provide invalid input (e.g., negative values, non-numeric characters), an error message will appear prompting you to enter valid dimensions.
+- Ensure valid inputs are provided for accurate drawing.
+
+## Notes
+
+- **Predefined Colors**: 
+  - Triangle: **Blue**
+  - Rectangle: **Green**
+  - Circle: **Red**
+- The shapes are drawn on the drawing panel located at the bottom of the window.
+- You can draw multiple shapes successively by selecting different shapes and entering dimensions.
+
+## Additional Information
+
+- This program uses **Java's Swing library** to create the graphical user interface (GUI).
+- Error messages are shown using **JOptionPane** for easy-to-understand error handling.
+- The code is structured with separate methods for drawing each shape, ensuring modularity and readability.
+
+## Customization
+
+Feel free to modify the code to add more advanced functionalities or additional shapes to suit your project needs.
